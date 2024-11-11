@@ -11,7 +11,7 @@ int main() {
 
     printf("%d\n", x); // value of main x
 
-    my_test_func(&x);
+    my_test_func(&x); // pass address of x
 
     printf("%d\n", x); // value of main x changed here
     
